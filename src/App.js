@@ -165,10 +165,10 @@ const Player = () => {
   }, [playing]);
 
   // Volume change
-  const changeVolume = () => {
-    // Volume
-    audio.current.volume = volume;
-  };
+  // const changeVolume = () => {
+  //   // Volume
+  //   audio.current.volume = volume;
+  // };
 
   return (
     <>
