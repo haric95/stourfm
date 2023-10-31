@@ -19,8 +19,8 @@ const radioObj = [
     id: 0,
     name: "",
     country: "stour road",
-    state: "FI",
-    city: "Landan",
+    state: "Fish Island",
+    city: "London",
     style: ["UKG"],
     url: "https://s5.radio.co/s43f0fae5a/listen",
     logo: "back-to-80.jpg",
@@ -29,7 +29,7 @@ const radioObj = [
 ];
 
 const PlayButton = ({ playing }) => {
-  return playing ? <h1>►</h1> : <h1>■</h1>;
+  return playing ? <h1>► Playing</h1> : <h1>■ Click to Play</h1>;
 };
 
 const LoadingButton = () => {
