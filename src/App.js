@@ -63,7 +63,6 @@ const Player = () => {
     min: "00",
     hour: "00",
   });
-  const [volume, setVolume] = useState(0.5);
 
   // Toggle play or pause state
   const toggle = () => {
