@@ -17,7 +17,7 @@ import { useRef, useEffect, useState } from "react";
 const radioObj = [
   {
     id: 0,
-    name: "",
+    name: "Spex FM",
     country: "stour road",
     state: "Fish Island",
     city: "London",
@@ -269,7 +269,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>STOUR FM</h1>
+        <h1>SPEX FM</h1>
         <Player />
       </header>
     </div>
